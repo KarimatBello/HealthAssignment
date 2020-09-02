@@ -1,0 +1,20 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int x = 0; 
+        int workOutDays = x;
+        x = 10;
+        System.out.println("Number of days:" + x);
+        double y = 0;
+        double health = y;
+        y = 8.5;
+        System.out.println("Health Scale:" + y);
+        boolean powerUp = true;
+        System.out.println("Are you ready to power up?" + powerUp);
+        System.out.println("Total Assessment: It has been 10 days since you've started working out.\n" +
+                "You evaluate at 8.5 out of 10 on the health scale.\n" +
+                "It is true that you are ready to power up your workout!\n");
+    }
+}
